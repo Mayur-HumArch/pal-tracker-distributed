@@ -6,7 +6,5 @@ applications:
   routes:
   - route: timesheets-pal-Amber-Mayur.apps.evans.pal.pivotal.io
   path: Applications/TimesheetsServer/bin/Release/netcoreapp2.1/publish
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-Amber-Mayur.apps.evans.pal.pivotal.io
   services:
   - tracker-timesheets-database
